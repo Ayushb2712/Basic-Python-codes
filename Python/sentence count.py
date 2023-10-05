@@ -1,0 +1,5 @@
+fn=open("C:/a2.txt",'r')
+a=fn.readlines()
+print(a)
+b=str(a).split(".")
+print(len(b)-1)
